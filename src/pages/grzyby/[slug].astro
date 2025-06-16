@@ -1,0 +1,11 @@
+---
+import { getCollection } from "astro:content";
+import PostLayout from "../../layouts/PostLayout.astro";
+export async function getStaticPaths() {
+	const mush = await getCollection('grzyby');
+	return mush.map((grzyb) => ({
+		params: { slug: grzyb.slug },
+		props: grzyb,
+	}));
+}
+---

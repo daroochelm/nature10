@@ -1,0 +1,64 @@
+---
+import { getCollection, getEntry } from "astro:content";
+import Nav from "../../components/Nav.astro";
+import PostLayout from "../../layouts/PostLayout.astro";
+import type { CollectionEntry } from 'astro:content';
+export async function getStaticPaths() {
+	const owadyEntries = await getCollection('owady')
+	return owadyEntries.map((owad)=>({
+		params: { slug: owad.slug },
+    	props: { owad},
+	})
+	)
+
+
+}
+const { owad } = Astro.props
+---
+<html>
+<head>
+	<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>Astro</title>
+</head>
+<body>
+	<PostLayout>
+		<div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4 pt-12">
+			<a href="/" class="flex items-center space-x-3 rtl:space-x-reverse">
+				
+				<span class="self-center text-3xl font-semibold whitespace-nowrap">Makrofotografia</span>
+			</a>
+			
+		<Nav></Nav>
+		</div>
+		<div class="grid grid-cols-1 lg:grid-cols-3 grid-rows-1 place-content-center">
+			<div class="lg:m-8 lg:col-span-2 md:m-2 sm:m-2 m-2">
+			<img class="rounded-xl w-full" width={943} height={565} src={owad.data.mainImage} alt="" transition:name={`hero-${owad.slug}`} transition:animate="fade"/>
+			</div>
+		
+			<div class="m-8">
+				
+				<h2 class="text-5xl text font-bold" transition:name={`tekst-${owad.slug}`}>{owad.data.title}</h2>
+				<h4 class="pt-6 text-2xl italic">{owad.data.latina}</h4>
+				<hr class="bg-gray-700 h-1 my-3">
+				<p class="text-blue-600 pt-4 text-2xl">GROMADA: {owad.data.level1}</p>
+				
+				<p class="text-blue-800 pt-4 text-2xl indent-5 md:max-2xl:indent-10">RZĄD: {owad.data.level2}</p>
+				<p class="text-blue-900 pt-4 text-2xl indent-10 md:max-2xl:indent-20">RODZINA	: {owad.data.level3}</p>
+				<p class="text-blue-900 pt-4 text-2xl indent-15 md:max-2xl:indent-25">RODZAJ	: {owad.data.level4}</p>
+				<hr class="bg-gray-700 h-1 my-3">
+				<p class="text-black pt-4 text-2xl">OKRES KWITNIENIA : {owad.data.flowertime}</p>
+				<hr class="bg-gray-700 h-1 my-3">
+				<p class="text-black pt-4 text-2xl text-justify font-">WYSTĘPOWANIE</p>
+				<p class="text-2xl text-justify">{owad.data.where}</p>
+				<hr class="bg-gray-700 h-1 my-3">
+				
+				
+			</div>
+		</div>	
+			<slot />
+	</PostLayout>
+</body>
+</html>

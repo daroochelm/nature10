@@ -1,0 +1,71 @@
+---
+// @ts-nocheck
+import PostLayout from '../../layouts/PostLayout.astro';
+import Nav from '../../components/Nav.astro';
+import { getCollection } from 'astro:content';
+import {fade} from 'astro:transitions';
+export async function getStaticPaths({paginate}){
+	const allflowers = (await getCollection('flower'))
+	return paginate(allflowers, {pageSize: 8})
+}
+const {page} = Astro.props
+---
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>Kwiaty</title>
+		
+	</head>
+	
+	<body>	
+			<PostLayout>
+			
+				<div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4 pt-12">
+					<a href="/" class="flex items-center space-x-3 rtl:space-x-reverse">
+						
+						<span class="self-center text-3xl font-semibold whitespace-nowrap">I love nature</span>
+					</a>
+					
+				<Nav></Nav>
+				</div>
+			
+			
+			
+				<div class="grid lg:grid-cols-4 grid-rows-1 gap-10 grid-cols-1 items-center mt-12 ml-5 mr-5 md:mt-36 mb-28 place-items-center" transition:name={`grid1`}>
+					{page.data.map((flowe: { slug: any; data: { mainImage: string; title: string; }; })=>(
+						<a href={`/flower/${flowe.slug}/`}>
+							<figure class="relative max-w-sm cursor-pointer hover:scale-110">
+						<img class="rounded-lg h-64 w-fit" src={flowe.data.mainImage} transition:name={`hero-${flowe.slug}`} transition:animate="fade" />
+						<div class="bg-blue-800 h-10 -mt-10 opacity-50 rounded-b-lg"></div>
+						<figcaption class="-mt-9 absolute text-2xl md:text-2xl text-white ml-10" transition:name={`tekst-${flowe.slug}`}>{flowe.data.title}</figcaption>
+					</figure>
+					</a>
+					)
+					)
+				}
+				</div>
+
+					<div class="flex flex-col items-center">
+					<div class="inline-flex mt-2 xs:mt-0 items-center">
+						
+					<div class="mr-10">{page.url.prev && page.url.prev ? <a href={page.url.prev}><button class="flex items-center justify-center px-3 h-8 text-sm font-medium text-white bg-blue-800 rounded hover:bg-gray-900 dark:bg-blue-800 dark:border-gray-700 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white">
+						Poprzednia 
+					</button></a> : ''}</div>
+						
+					<span>Strona: {page.currentPage}</li></span>
+					<div class="ml-10">{page.url.next && page.url.next ? <a href={page.url.next}><button class="flex items-center justify-center px-3 h-8 text-sm font-medium text-white bg-blue-800 rounded hover:bg-gray-900 dark:bg-blue-800 dark:border-gray-700 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white">
+						Następna
+					</button></a> : ''}</div>
+						
+					</div>
+					</div>
+			</PostLayout>
+			
+			
+		  
+	</body>
+</html>

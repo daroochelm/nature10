@@ -1,0 +1,61 @@
+---
+
+import Nav from '../../components/Nav.astro';
+import { getCollection } from 'astro:content';
+const allmushrooms = (await getCollection('grzyby'))
+---
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>Astro</title>
+		
+	</head>
+	
+	<body>	
+		
+			
+				<nav class="fixed w-full z-20 top-0 start-0 border-b border-gray-200">
+					<div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4 pt-12">
+						<a href="/" class="flex items-center space-x-3 rtl:space-x-reverse">
+							<img src="../public/bug.png" class="h-24" alt="Macro Photo Logo">
+							<span class="self-center text-3xl font-semibold whitespace-nowrap">Makrofotografia</span>
+						</a>
+						
+					<Nav></Nav>
+					</div>
+				</nav>
+			
+			
+			
+				<div class="grid lg:grid-cols-3 grid-rows-2 gap-10 md:grid-cols-1 items-center mt-56 ml-32">
+					{allmushrooms.map((mushr)=>(
+						<a href={`/grzyby/${mushr.slug}/`}>
+					<figure class="relative max-w-sm transition-all duration-300 cursor-pointer hover:scale-110">
+						<img class="rounded-lg h-64" src={mushr.data.mainImage} />
+						<div class="bg-white h-10 -mt-10 opacity-30 rounded-b-lg"></div>
+						<div class="-mt-10 text-3xl text-white text-center">{mushr.data.title}</div>
+					</figure>
+					</a>
+					)
+					)
+				}
+					
+							
+							
+							
+							
+							
+							
+						
+					
+					
+				</div>
+			</div>
+			<a href="https://www.flaticon.com/free-icons/macro" title="macro icons">Macro icons created by smashingstocks - Flaticon</a>
+		  </div>
+	</body>
+</html>
