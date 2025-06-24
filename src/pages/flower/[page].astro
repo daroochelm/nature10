@@ -39,7 +39,7 @@ const {page} = Astro.props
 					{page.data.map((flowe: { slug: any; data: { mainImage: string; title: string; }; })=>(
 						<a href={`/flower/${flowe.slug}/`}>
 							<figure class="relative max-w-sm cursor-pointer hover:scale-110">
-						<img class="rounded-lg h-64 w-fit" src={flowe.data.mainImage} transition:name={`hero-${flowe.slug}`} transition:animate="fade" />
+						<img class="rounded-lg h-64 w-fit" src={`https://res.cloudinary.com/drvpquisg/image/upload/t_website/v1749682547/${flowe.data.mainImage}.jpg`} transition:name={`hero-${flowe.slug}`} transition:animate="fade" />
 						<div class="bg-blue-800 h-10 -mt-10 opacity-50 rounded-b-lg"></div>
 						<figcaption class="-mt-9 absolute text-2xl md:text-2xl text-white ml-10" transition:name={`tekst-${flowe.slug}`}>{flowe.data.title}</figcaption>
 					</figure>

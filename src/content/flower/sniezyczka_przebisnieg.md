@@ -2,7 +2,7 @@
 title: 'Śnieżyczka przebiśnieg'
 latina: '(Galanthus nivalis)'
 pubDate: 'Jul 01 2022'
-mainImage: 'https://res.cloudinary.com/drvpquisg/image/upload/t_website/v1747507487/sniezyczka_przebisnieg_ion7b3.jpg'
+mainImage: 'sniezyczka_przebisnieg_ion7b3'
 level1: 'rośliny naczyniowe'
 level2: 'szparagowce'
 level3: 'amarylkowate'

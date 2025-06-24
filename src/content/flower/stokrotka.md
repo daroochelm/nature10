@@ -2,7 +2,7 @@
 title: 'Stokrotka pospolita'
 latina: '(Bellis perennis)'
 pubDate: 'Jul 11 2022'
-mainImage: 'https://res.cloudinary.com/drvpquisg/image/upload/t_website/v1747364889/stokrotka_pospolita_pgxyda.jpg'
+mainImage: 'stokrotka_pospolita_pgxyda'
 level1: 'rośliny naczyniowe'
 level2: 'astrowce'
 level3: 'astrowate'

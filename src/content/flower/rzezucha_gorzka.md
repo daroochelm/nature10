@@ -2,7 +2,7 @@
 title: 'Rzeżucha gorzka'
 latina: '(Cardamine amara)'
 pubDate: 'Jul 01 2022'
-mainImage: 'https://res.cloudinary.com/drvpquisg/image/upload/t_website/v1747509665/rzezucha_gorzka_jgj2sl.jpg'
+mainImage: 'rzezucha_gorzka_jgj2sl'
 level1: 'rośliny naczyniowe'
 level2: 'kapustowce'
 level3: 'kapustowate'

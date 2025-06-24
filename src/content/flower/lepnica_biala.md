@@ -2,7 +2,7 @@
 title: 'Lepnica biała'
 latina: '(Silene latifolia)'
 pubDate: 'Jun 12 2025'
-mainImage: 'https://res.cloudinary.com/drvpquisg/image/upload/t_website/v1749682991/lepnica_biala_doqvvl.jpg'
+mainImage: 'lepnica_biala_doqvvl'
 level1: 'rośliny naczyniowe'
 level2: 'goździkowce'
 level3: 'goździkowate'

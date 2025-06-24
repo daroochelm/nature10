@@ -2,7 +2,7 @@
 title: 'Tojeść gajowa'
 latina: '(Lysimachia nemorum)'
 pubDate: 'Jul 01 2022'
-mainImage: 'https://res.cloudinary.com/drvpquisg/image/upload/t_website/v1747416619/tojesc_gajowa_xl6thd.jpg'
+mainImage: 'tojesc_gajowa_xl6thd'
 level1: 'rośliny naczyniowe'
 level2: 'wrzosowce'
 level3: 'pierwiosnkowate'

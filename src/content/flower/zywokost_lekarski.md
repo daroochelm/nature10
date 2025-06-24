@@ -2,7 +2,7 @@
 title: 'Żywokost lekarski'
 latina: '(Symphytum officinale)'
 pubDate: 'Jun 01 2025'
-mainImage: 'https://res.cloudinary.com/drvpquisg/image/upload/t_website/v1748797777/zywokost_lekarski_uxigjq.jpg'
+mainImage: 'zywokost_lekarski_uxigjq'
 level1: 'rośliny naczyniowe'
 level2: 'ogórecznikowce'
 level3: 'ogórecznikowate'

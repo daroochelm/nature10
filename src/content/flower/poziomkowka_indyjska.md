@@ -2,7 +2,7 @@
 title: 'Poziomkówka indyjska'
 latina: '(Potentilla indica)'
 pubDate: 'Jun 01 2025'
-mainImage: 'https://res.cloudinary.com/drvpquisg/image/upload/t_website/v1748805634/poziomkowka_indyjska_xcu5en.jpg'
+mainImage: 'poziomkowka_indyjska_xcu5en'
 level1: 'rośliny naczyniowe'
 level2: 'różowce'
 level3: 'różowate'

@@ -2,7 +2,7 @@
 title: 'Bodziszek żałobny'
 latina: '(Geranium phaeum)'
 pubDate: 'Jul 01 2022'
-mainImage: 'https://res.cloudinary.com/drvpquisg/image/upload/t_ass/v1749586356/bodziszek_zalobny1_qxx8ou.jpg'
+mainImage: 'bodziszek_zalobny1_u7ooob'
 level1: 'rośliny naczyniowe'
 level2: 'bodziszkowce'
 level3: 'bodziszkowate'

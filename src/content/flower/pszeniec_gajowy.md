@@ -2,7 +2,7 @@
 title: 'Pszeniec gajowy'
 latina: '(Melampyrum nemorosum)'
 pubDate: 'Jun 01 2025'
-mainImage: 'https://res.cloudinary.com/drvpquisg/image/upload/t_ass/v1748803411/pszeniec_gajowy_jxxklw.jpg'
+mainImage: 'pszeniec_gajowy_jxxklw'
 level1: 'rośliny naczyniowe'
 level2: 'jasnotowce'
 level3: 'zarazowate'

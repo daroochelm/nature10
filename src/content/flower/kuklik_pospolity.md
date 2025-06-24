@@ -2,7 +2,7 @@
 title: 'Kuklik pospolity'
 latina: '(Geum urbanum)'
 pubDate: 'Jun 12 2025'
-mainImage: 'https://res.cloudinary.com/drvpquisg/image/upload/t_website/v1749688686/kuklik_pospolity_ykh0sb.jpg'
+mainImage: 'kuklik_pospolity_ykh0sb'
 level1: 'rośliny naczyniowe'
 level2: 'różowce'
 level3: 'różowate'

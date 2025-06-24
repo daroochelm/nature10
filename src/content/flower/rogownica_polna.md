@@ -2,7 +2,7 @@
 title: 'Rogownica polna'
 latina: '(Cerastium arvense)'
 pubDate: 'Jun 01 2025'
-mainImage: 'https://res.cloudinary.com/drvpquisg/image/upload/t_website/v1748795640/rogownica_polna_wqrt07.jpg'
+mainImage: 'rogownica_polna_wqrt07'
 level1: 'rośliny naczyniowe'
 level2: 'goździkowce'
 level3: 'goździkowate'

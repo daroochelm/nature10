@@ -2,7 +2,7 @@
 title: 'Buławnik mieczolistny'
 latina: '(Cephalanthera longifolias)'
 pubDate: 'Jul 01 2022'
-mainImage: 'https://res.cloudinary.com/drvpquisg/image/upload/t_website/v1747422531/bulawnik_mieczolistny_vwzxez.jpg'
+mainImage: 'bulawnik_mieczolistny_vwzxez'
 level1: 'rośliny naczyniowe'
 level2: 'szparagowce'
 level3: 'storczykowate'

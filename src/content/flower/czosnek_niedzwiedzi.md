@@ -2,7 +2,7 @@
 title: 'Czosnek niedźwiedzi'
 latina: '(Allium ursinum)'
 pubDate: 'Jul 01 2022'
-mainImage: 'https://res.cloudinary.com/drvpquisg/image/upload/t_website/v1747456459/czosnek_niedzwiedzi_lmsgul.jpg'
+mainImage: 'czosnek_niedzwiedzi_lmsgul'
 level1: 'rośliny naczyniowe'
 level2: 'szparagowce'
 level3: 'amarylkowate'

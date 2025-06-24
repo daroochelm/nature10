@@ -2,7 +2,7 @@
 title: 'Zdrojówka rutewkowata'
 latina: '(Isopyrum thalictroides)'
 pubDate: 'Jul 01 2022'
-mainImage: 'https://res.cloudinary.com/drvpquisg/image/upload/t_website/v1747458623/zdrojowka_rutewkowata_soviwo.jpg'
+mainImage: 'zdrojowka_rutewkowata_soviwo'
 level1: 'rośliny naczyniowe'
 level2: 'jaskrowce'
 level3: 'jaskrowate'

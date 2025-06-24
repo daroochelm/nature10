@@ -2,7 +2,7 @@
 title: 'Poziewnik miękkowłosy'
 latina: '(Galeopsis pubescens)'
 pubDate: 'Jun 01 2025'
-mainImage: 'https://res.cloudinary.com/drvpquisg/image/upload/t_website/v1748796387/poziewnik_miekkowlosy_d0whuf.jpg'
+mainImage: 'poziewnik_miekkowlosy_d0whuf'
 level1: 'rośliny naczyniowe'
 level2: 'jasnotowce'
 level3: 'jasnotowate'

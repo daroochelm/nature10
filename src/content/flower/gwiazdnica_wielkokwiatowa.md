@@ -2,7 +2,7 @@
 title: 'Gwiazdnica wielkokwiatowa'
 latina: '(Stellaria holostea)'
 pubDate: 'Jun 02 2025'
-mainImage: 'https://res.cloudinary.com/drvpquisg/image/upload/t_website/v1748892629/gwiazdnica_wielkokwiatowa_irtamr.jpg'
+mainImage: 'gwiazdnica_wielkokwiatowa_irtamr'
 level1: 'rośliny naczyniowe'
 level2: 'goździkowce'
 level3: 'goździkowate'

@@ -2,7 +2,7 @@
 title: 'Konwalijka dwulistna'
 latina: '(Maianthemum bifolium)'
 pubDate: 'Jun 01 2025'
-mainImage: 'https://res.cloudinary.com/drvpquisg/image/upload/t_website/v1748807441/konwalijka_dwulistna_todctr.jpg'
+mainImage: 'konwalijka_dwulistna_todctr'
 level1: 'rośliny naczyniowe'
 level2: 'szparagowce'
 level3: 'szparagowate'

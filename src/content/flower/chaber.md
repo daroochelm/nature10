@@ -2,7 +2,7 @@
 title: 'Chaber bławatek'
 latina: '(Centaurea cyanus)'
 pubDate: 'Jul 01 2022'
-mainImage: 'https://res.cloudinary.com/drvpquisg/image/upload/t_website/v1747364888/chaber_blawatek_vamqkg.jpg'
+mainImage: 'chaber_blawatek_vamqkg'
 level1: 'rośliny naczyniowe'
 level2: 'astrowce'
 level3: 'astrowate'

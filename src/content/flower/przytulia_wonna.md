@@ -2,7 +2,7 @@
 title: 'Przytulia wonna'
 latina: '(Galium odoratum)'
 pubDate: 'Jul 01 2022'
-mainImage: 'https://res.cloudinary.com/drvpquisg/image/upload/t_website/v1747536549/przytulia_wonna_ajwfbm.jpg'
+mainImage: 'przytulia_wonna_ajwfbm'
 level1: 'rośliny naczyniowe'
 level2: 'goryczkowce'
 level3: 'marzanowate'
