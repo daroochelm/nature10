@@ -16,7 +16,7 @@ export async function getStaticPaths() {
 
 }
 const { kwiat } = Astro.props;
-
+const src1='https://res.cloudinary.com/drvpquisg/image/upload/ar_2:1,c_fill,g_face/f_auto/q_auto/c_scale,w_800';
 ---
 <html>
 <head>
@@ -38,7 +38,28 @@ const { kwiat } = Astro.props;
 		</div>
 		<div class="grid grid-cols-1 lg:grid-cols-3 grid-rows-1 place-content-center">
 			<div class="lg:m-8 lg:col-span-2 md:m-2 sm:m-2 m-2">
-			<img class="rounded-xl w-full" width={943} height={565} src={kwiat.data.mainImage} alt="" transition:name={`hero-${kwiat.slug}`} transition:animate="fade"/>
+				<picture>
+
+					<source 
+					  media="(min-width: 800px)"
+					  srcset="https://res.cloudinary.com/drvpquisg/image/upload/ar_2:1,c_fill,g_face/f_auto/q_auto/c_scale,w_800/kuklik_pospolity_ykh0sb.jpg 800w, 
+					  https://res.cloudinary.com/drvpquisg/image/upload/ar_2:1,c_fill,g_face/f_auto/q_auto/c_scale,w_1600/kuklik_pospolity_ykh0sb.jpg 1600w"
+					  sizes="100vw" />  
+					
+					<source 
+					  media="(min-width: 600px)"
+					  srcset="https://res.cloudinary.com/drvpquisg/image/upload/f_auto/q_auto/c_scale,w_600/kuklik_pospolity_ykh0sb.jpg 600w, 
+					  https://res.cloudinary.com/drvpquisg/image/upload/f_auto/q_auto/c_scale,w_1200/kuklik_pospolity_ykh0sb.jpg 1200w"
+					  sizes="100vw" />
+					
+					<img
+					  srcset="https://res.cloudinary.com/drvpquisg/image/upload/ar_1:1,c_thumb,g_face/f_auto/q_auto/c_scale,w_400/kuklik_pospolity_ykh0sb.jpg 400w, 
+					  https://res.cloudinary.com/drvpquisg/image/upload/ar_1:1,c_thumb,g_face/f_auto/q_auto/c_scale,w_800/kuklik_pospolity_ykh0sb.jpg 800w"
+					  src="https://res.cloudinary.com/drvpquisg/image/upload/f_auto/q_auto/c_scale,w_400/kuklik_pospolity_ykh0sb.jpg"
+					  alt="Man playing guitar"
+					  sizes="100vw" />   
+					
+					</picture>
 			</div>
 		
 			<div class="m-8">
@@ -46,7 +67,7 @@ const { kwiat } = Astro.props;
 				<h2 class="text-5xl text font-bold" transition:name={`tekst-${kwiat.slug}`}>{kwiat.data.title}</h2>
 				<h4 class="pt-6 text-1xl italic">{kwiat.data.latina}</h4>
 				<hr class="bg-gray-700 h-1 my-3">
-				<p class="text-blue-600 pt-4 text-xl">GROMADA1: {kwiat.data.level1}</p>
+				<p class="text-blue-600 pt-4 text-xl">GROMADA: {kwiat.data.level1}</p>
 				
 				<p class="text-blue-800 pt-4 text-xl indent-8">RZĄD: {kwiat.data.level2}</p>
 				<p class="text-blue-900 pt-4 text-xl indent-16">RODZINA: {kwiat.data.level3}</p>
