@@ -2,7 +2,7 @@
 title: 'Świerząbek złotawy'
 latina: '(Chaerophyllum aureum)'
 pubDate: 'Jun 01 2025'
-mainImage: 'swierzabek_zloty_u0xj4l'
+mainImage: 'swierzabek_zlotawy_uilyso'
 level1: 'rośliny naczyniowe'
 level2: 'selerowce'
 level3: 'selerowate'
