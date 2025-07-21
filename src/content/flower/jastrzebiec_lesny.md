@@ -2,7 +2,7 @@
 title: 'Jastrzębiec leśny'
 latina: '(Hieracium murorum)'
 pubDate: 'Jun 01 2025'
-mainImage: 'jastrzebiec_lesny_wwhaeb'
+mainImage: 'jastrzebiec_lesny.jpeg'
 level1: 'rośliny naczyniowe'
 level2: 'astrowce'
 level3: 'astrowate'

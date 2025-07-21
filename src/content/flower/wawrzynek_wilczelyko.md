@@ -2,7 +2,7 @@
 title: 'Wawrzynek wilczełyko'
 latina: '(Daphne mezereum)'
 pubDate: 'Jul 01 2022'
-mainImage: 'wawrzynek_wilczelyko_utxcuu'
+mainImage: 'wawrzynek_wilczelyko.jpeg'
 level1: 'rośliny naczyniowe'
 level2: 'ślazowce'
 level3: 'wawrzynkowate'

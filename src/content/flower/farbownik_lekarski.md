@@ -2,7 +2,7 @@
 title: 'Farbownik lekarski'
 latina: '(Anchusa officinalis)'
 pubDate: 'Jun 08 2025'
-mainImage: 'farbownik_lekarski_vs7i71'
+mainImage: 'farbownik_lekarski.jpeg'
 level1: 'rośliny naczyniowe'
 level2: 'astropodobne'
 level3: 'ogórecznikowate'

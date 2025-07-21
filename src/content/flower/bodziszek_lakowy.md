@@ -2,7 +2,7 @@
 title: 'Bodziszek łąkowy'
 latina: '(Geranium pratense)'
 pubDate: 'Jun 09 2025'
-mainImage: 'bodziszek_lakowy_cn20qs'
+mainImage: 'bodziszek_lakowy.jpeg'
 level1: 'rośliny naczyniowe'
 level2: 'bodziszkowce'
 level3: 'bodziszkowate'

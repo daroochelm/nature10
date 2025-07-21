@@ -2,7 +2,7 @@
 title: 'Śnieżyca wiosenna'
 latina: '(Leucojum vernum)'
 pubDate: 'Jun 01 2025'
-mainImage: 'sniezyca_wiosenna_ipdgsl'
+mainImage: 'sniezyca_wiosenna.jpeg'
 level1: 'rośliny naczyniowe'
 level2: 'szparagowce'
 level3: 'amarylkowate'

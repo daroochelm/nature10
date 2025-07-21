@@ -2,7 +2,7 @@
 title: 'Pierwiosnek wyniosły'
 latina: '(Primula elatior)'
 pubDate: 'Jul 01 2022'
-mainImage: 'pierwiosnek_wyniosly_wddqox'
+mainImage: 'pierwiosnek_wyniosly.jpeg'
 level1: 'rośliny naczyniowe'
 level2: 'wrzosowce'
 level3: 'pierwiosnkowate'

@@ -3,6 +3,7 @@ import { getCollection, getEntry } from "astro:content";
 import Nav from "../../components/Nav.astro";
 import PostLayout from "../../layouts/PostLayout.astro";
 import type { CollectionEntry } from 'astro:content';
+import { Image } from 'astro:assets';
 export async function getStaticPaths() {
 	const flowersEntries = await getCollection('flower')
 	
@@ -38,27 +39,7 @@ const src1='kuklik_pospolity_ykh0sb';
 		</div>
 		<div class="grid grid-cols-1 lg:grid-cols-3 grid-rows-1 place-content-center">
 			<div class="lg:m-8 lg:col-span-2 md:m-2 sm:m-2 m-2">
-				<picture>
-
-					<source 
-					  media="(min-width: 1024px)"
-					  srcset=`https://res.cloudinary.com/drvpquisg/image/upload/ar_1.0,c_fill,g_face/f_auto/q_auto/c_scale,w_200/${kwiat.data.mainImage}.jpg 256w,
-					  https://res.cloudinary.com/drvpquisg/image/upload/ar_1.0,c_fill,g_face/f_auto/q_auto/c_scale,w_400/${kwiat.data.mainImage}.jpg 512w,
-					  https://res.cloudinary.com/drvpquisg/image/upload/ar_2:1,c_fill,g_face/f_auto/q_auto/c_scale,w_600/${kwiat.data.mainImage}.jpg 768w,
-					  https://res.cloudinary.com/drvpquisg/image/upload/ar_2:1,c_fill,g_face/f_auto/q_auto/c_scale,w_1024/${kwiat.data.mainImage}.jpg 1024w, 
-					  https://res.cloudinary.com/drvpquisg/image/upload/ar_1.67,c_auto,g_auto/f_auto/q_auto/r_15,c_scale,w_1600/${kwiat.data.mainImage}.jpg 1600w`
-					  sizes="(max-width: 768px) 50vw, 80vw" />  
-					
-					
-					
-					<img
-					  srcset=`https://res.cloudinary.com/drvpquisg/image/upload/ar_1:1,c_thumb,g_face/f_auto/q_auto/c_scale,w_400/${kwiat.data.mainImage}.jpg 400w, 
-					  https://res.cloudinary.com/drvpquisg/image/upload/ar_1:1,c_thumb,g_face/f_auto/q_auto/c_scale,w_800/${kwiat.data.mainImage}.jpg 768w`
-					  src=`https://res.cloudinary.com/drvpquisg/image/upload/f_auto/q_auto/c_scale,w_400/${kwiat.data.mainImage}.jpg`
-					  alt="Man playing guitar"
-					  sizes="100vw" />   
-					
-					</picture>
+				<img src=`/src/content/images/${kwiat.data.mainImage}` alt="Man playing guitar" width={1500} height={900} loading="lazy"/>   
 			</div>
 		
 			<div class="m-8">

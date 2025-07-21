@@ -2,7 +2,7 @@
 title: 'Zawilec gajowy'
 latina: '(Anemone nemorosa)'
 pubDate: 'Jul 01 2022'
-mainImage: 'zawilec_gajowy_oq5vyo'
+mainImage: 'zawilec_gajowy.jpeg'
 level1: 'rośliny naczyniowe'
 level2: 'jaskrowce'
 level3: 'jaskrowate'

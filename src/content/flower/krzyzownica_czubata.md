@@ -2,7 +2,7 @@
 title: 'Krzyżownica czubata'
 latina: '(Polygala comosa)'
 pubDate: 'Jun 12 2025'
-mainImage: 'krzyzownica_czubata_s3kiug'
+mainImage: 'krzyzownica_czubata.jpeg'
 level1: 'rośliny naczyniowe'
 level2: 'bobowce'
 level3: 'krzyżownicowate'

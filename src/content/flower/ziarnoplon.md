@@ -2,7 +2,7 @@
 title: 'Ziarnopłon wiosenny'
 latina: '(Ficaria verna)'
 pubDate: 'Jul 01 2022'
-mainImage: 'ziarnoplon_wiosenny_tblign'
+mainImage: 'ziarnoplon_wiosenny.jpeg'
 level1: 'rośliny naczyniowe'
 level2: 'jaskrowce'
 level3: 'jaskrowate'

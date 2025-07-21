@@ -2,7 +2,7 @@
 title: 'Jaskier rozłogowy'
 latina: '(Ranunculus repens)'
 pubDate: 'Jun 01 2025'
-mainImage: 'jaskier_rozlogowy_gfrywf'
+mainImage: 'jaskier_rozlogowy.jpeg'
 level1: 'rośliny naczyniowe'
 level2: 'jaskrowce'
 level3: 'jaskrowate'

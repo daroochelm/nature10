@@ -2,7 +2,7 @@
 title: 'Złoć żółta'
 latina: '(Gagea lutea)'
 pubDate: 'Jul 01 2022'
-mainImage: 'zloc_zolta_s56qvv'
+mainImage: 'zloc_zolta.jpeg'
 level1: 'rośliny naczyniowe'
 level2: 'liliowce'
 level3: 'lilowate'

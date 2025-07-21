@@ -2,7 +2,7 @@
 title: 'Zerwa kłosowa'
 latina: '(Phyteuma spicatum)'
 pubDate: 'Jun 01 2025'
-mainImage: 'zerwa_klosowa_nssqvl'
+mainImage: 'zerwa_klosowa.jpeg'
 level1: 'rośliny naczyniowe'
 level2: 'astrowce'
 level3: 'dzwonkowate'

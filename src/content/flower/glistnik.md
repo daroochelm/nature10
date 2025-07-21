@@ -2,7 +2,7 @@
 title: 'Glistnik jaskółcze ziele'
 latina: '(Chelidonium majus)'
 pubDate: 'Jul 11 2022'
-mainImage: 'glistnik_mxlkbf'
+mainImage: 'glistnik_jaskolcze_ziele.jpeg'
 level1: 'jaskrowce'
 level2: 'makowate'
 level3: 'glistnik'

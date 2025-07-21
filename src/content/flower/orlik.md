@@ -2,7 +2,7 @@
 title: 'Orlik pospolity'
 latina: '(Aquilegia vulgaris L.)'
 pubDate: 'Jul 01 2022'
-mainImage: 'orlik_pospolity_fbmxei'
+mainImage: 'orlik_pospolity.jpg'
 level1: 'rośliny naczyniowe'
 level2: 'jaskrowce'
 level3: 'jaskrowate'

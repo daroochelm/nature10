@@ -2,7 +2,7 @@
 title: 'Miodunka ćma'
 latina: '(Pulmonaria obscura)'
 pubDate: 'Jul 01 2022'
-mainImage: 'miodunka_cma_cwnpmf'
+mainImage: 'miodunka_cma.jpeg'
 level1: 'rośliny naczyniowe'
 level2: 'ogórecznikowce'
 level3: 'ogórecznikowate'

@@ -2,7 +2,7 @@
 title: 'Facelia błękitna'
 latina: '(Phacelia tanacetifolia)'
 pubDate: 'Jul 01 2022'
-mainImage: 'facelia_blekitna_nsqos6'
+mainImage: 'facelia_blekitna.jpeg'
 level1: 'rośliny naczyniowe'
 level2: 'ogórecznikowce'
 level3: 'ogórecznikowate'

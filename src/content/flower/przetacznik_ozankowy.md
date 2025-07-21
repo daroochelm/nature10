@@ -2,7 +2,7 @@
 title: 'Przetacznik ożankowy'
 latina: '(Veronica chamaedrys)'
 pubDate: 'Jul 01 2022'
-mainImage: 'przetacznik_ozankowy_xz42uk'
+mainImage: 'przetacznik_ozankowy.jpeg'
 level1: 'rośliny naczyniowe'
 level2: 'jasnotowce'
 level3: 'babkowate'
