@@ -10,9 +10,9 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/check": "^0.7.0",
+    "@astrojs/check": "^0.9.4",
     "@astrojs/mdx": "^3.1.2",
-    "@astrojs/tailwind": "^5.1.0",
+    "@astrojs/tailwind": "^6.0.2",
     "@astrojs/ts-plugin": "^1.9.0",
     "@philnash/astro-pagination": "^0.4.0",
     "@sarissa/pagination": "^1.0.3",
